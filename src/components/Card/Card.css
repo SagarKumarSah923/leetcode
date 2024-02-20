@@ -1,0 +1,121 @@
+.main-slider{
+    background-color: rgb(70, 66, 66);
+    background-color: rgb(74, 66, 66);
+    border-radius: 20px;
+    transition: all 0.5s;
+    max-width: 20vw;
+    min-height:max-content;
+
+}
+.main-slider:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.title-slider{
+    padding: 2vmax;
+}
+.info-slider{
+    display: flex;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 20px rgba(78, 76, 76, 0.5); */
+}
+.info-slider > div{
+    padding: 1vmax;
+    background-color: white;
+    width: 20vw;
+    padding: none;
+}
+
+.slider-container{
+    padding: 1vmax 0 0 8vmax;
+    border: none;
+}
+
+.Home-content{
+    margin-left: 4vmax;
+}
+.Home-content h5{
+    padding: 10px;
+    margin-bottom: 4vmax;
+}
+.Home-content h3{
+    padding: 10px;
+
+}
+.card-container{
+    margin: 2vmax;
+    width: 20vw;
+}
+/* Card.css */
+
+/* Base styles */
+.main-slider {
+    background-color: rgb(70, 66, 66);
+    border-radius: 20px;
+    transition: all 0.5s;
+    max-width: 20vw;
+    min-height: max-content;
+}
+
+.main-slider:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.title-slider {
+    padding: 2vmax;
+}
+
+.info-slider {
+    display: flex;
+    border-radius: 20px;
+}
+
+.info-slider > div {
+    padding: 1vmax;
+    background-color: white;
+    width: 20vw;
+    padding: none;
+}
+
+.slider-container {
+    padding: 1vmax 0 0 8vmax;
+    border: none;
+}
+
+.Home-content {
+    margin-left: 4vmax;
+}
+
+.Home-content h5 {
+    padding: 10px;
+    margin-bottom: 4vmax;
+}
+
+.Home-content h3 {
+    padding: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .card-container{
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main-slider {
+        max-width: 100%;
+    }
+    .info-slider > div {
+        width: 100%;
+        margin-bottom: 1vmax;
+    }
+
+    .slider-container {
+        padding: 1vmax 0 0 2vmax;
+    }
+
+    .Home-content {
+        margin-left: 2vmax;
+    }
+}
+

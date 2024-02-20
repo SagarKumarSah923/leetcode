@@ -1,0 +1,112 @@
+.logo{
+    width: 150px;
+}
+
+.header-container{
+    margin: 0.5vmax 3vmax;
+    border-bottom: 1px #212121;
+    display: flex;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu a {
+    list-style: none;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #212121;
+}
+.header-menu a svg{
+    margin-right: 0;
+}
+.interview-dialog{
+    position: relative;
+    top: 40px;
+    max-width: 100%;
+    background: rgb(244, 239, 239);
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+}
+.right-header{
+    float: right;
+    display: flex;
+    right: 5vmax;
+    position: absolute;
+}
+.right-menu{
+    display: flex;
+    padding: 1vmax;
+    align-items: center;
+}
+.right-header .right-menu svg{
+    font-size: 1.5vmax;
+}
+.slick-slide{
+    width: auto;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu a {
+    list-style: none;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.header-menu a svg {
+    margin-right: 0;
+}
+
+.interview-dialog {
+    position: relative;
+    top: 40px;
+    max-width: 100%;
+    background: rgb(244, 239, 239);
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+}
+
+.right-header {
+    float: right;
+    display: flex;
+    right: 5vmax;
+    position: absolute;
+}
+
+.right-menu {
+    display: flex;
+    padding: 1vmax;
+}
+
+.right-header .right-menu svg {
+    font-size: 1.5vmax;
+}
+
+.slick-slide {
+    width: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-menu {
+        margin-top: 10px;
+    }
+
+    .right-header {
+        position: relative;
+        float: none;
+        margin-top: 10px;
+        right: 0;
+    }
+}
